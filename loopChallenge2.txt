@@ -1,0 +1,21 @@
+loopChallenge2
+
+
+static void Main(string[] args)
+        {
+            int counter;
+            int countclap;
+
+            for (counter = 1; counter <= 10; counter++)
+            {
+                System.Console.WriteLine("Throw the ball in the air");
+                System.Console.WriteLine("Then Spin.");
+
+                for (countclap = 1; countclap <= 3; countclap++)
+                {
+                    System.Console.WriteLine("Clap");
+
+                }
+
+            }
+            System.Console.ReadLine();

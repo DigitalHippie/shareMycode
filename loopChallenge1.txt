@@ -1,0 +1,20 @@
+loopChallenge1
+
+
+
+ static void Main(string[] args)
+        {
+            int counter;
+
+            for (counter = 1; counter <= 10; counter++)
+            {
+                System.Console.WriteLine("Throw the ball in the air");
+                System.Console.WriteLine("Then Spin.");
+
+            }
+            System.Console.ReadLine();
+
+ 
+
+        }
+   

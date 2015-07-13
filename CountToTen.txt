@@ -1,0 +1,17 @@
+CountToTen
+
+
+ static void Main(string[] args)
+        {
+
+            int counter;
+           
+            for  (counter = 1; counter <= 10; counter++)
+
+            {
+                System.Console.Write(counter);
+            
+            }
+        System.Console.ReadLine();
+
+        }

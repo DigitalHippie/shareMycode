@@ -1,0 +1,26 @@
+multTable
+
+
+ static void Main(string[] args)
+        {
+            
+                for (int top = 1; top <= 12; top++)
+                
+		{
+
+                for (int side = 1; side <= 12; side++) 
+                
+		{
+                    System.Console.Write(String.Format("{0, 4}", top * side));
+
+                }
+
+                    System.Console.WriteLine();
+
+
+                }
+                    System.Console.ReadLine();
+
+
+
+        }
